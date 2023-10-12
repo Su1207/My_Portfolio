@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+:root {
+  --header-height: 3rem;
+  --hue: 0;
+  --sat: 0%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+input,
+button,
+textarea {
+  font-size: 1rem;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 46%);
+}
+
+h1,
+h2,
+h3 {
+  color: hsl(0, 0%, 0%);
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  /* color: hsl(0, 0%, 46%); */
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* resusable css classes */
+
+.section {
+  padding: 6rem 0 2rem;
+}
+
+.section_title {
+  font-size: 2.25rem;
+  color: hsl(var(--hue), var(--sat), 20%);
+}
+
+.section_subtitle {
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 4rem;
+}
+
+.section-title,
+.section_subtitle {
+  text-align: center;
+}
+
+/* Layout */
+
+.container {
+  max-width: 968px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: hsl(0, 0%, 20%);
+  color: #fff;
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: hsl(0, 0%, 0%);
+}
+
+.button_icon {
+  margin-left: 0.5rem;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
