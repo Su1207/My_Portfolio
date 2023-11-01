@@ -7,8 +7,13 @@ import Skills from "./components/skills/Skills";
 import Qualification from "./components/qualification/Qualification";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+// import ScrollDown from "./components/home/ScrollDown";
+import ScrollUp from "./components/scrollup/ScrollUp";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
+  AOS.init();
   return (
     <>
       <Header />
@@ -19,8 +24,10 @@ const App = () => {
         <Skills />
         <Qualification />
         <Contact />
-        <Footer />
       </main>
+
+      <Footer />
+      <ScrollUp />
     </>
   );
 };

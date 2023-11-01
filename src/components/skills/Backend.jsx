@@ -2,10 +2,10 @@ import React from "react";
 
 const Backend = () => {
   return (
-    <div className="skills__content">
+    <div className="skills__content" data-aos="zoom-in-left">
       <h3 className="skills__title">Backend Developer</h3>
 
-      <div className="skills__box">
+      <div className="skills__box" data-aos="zoom-out" data-aos-duration="6000">
         <div className="skills__group">
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>

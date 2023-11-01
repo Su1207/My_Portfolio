@@ -2,7 +2,7 @@ import React from "react";
 
 const Data = () => {
   return (
-    <div className="home__data">
+    <div className="home__data" data-aos="zoom-in-up" data-aos-duration="4000">
       <h1 className="home__title">
         Suraj Maheshwari
         <svg

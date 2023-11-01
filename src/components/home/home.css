@@ -16,7 +16,7 @@
 }
 
 .home__social-icon {
-  color: hsl(0, 0%, 20%);
+  color: #00cea8;
   font-size: 1.25rem;
 }
 
@@ -27,6 +27,7 @@
 .home__title {
   font-size: 3.5rem;
   margin-bottom: 0.25rem;
+  color: #fff;
 }
 
 .home__hand {
@@ -41,6 +42,7 @@
   padding-left: 5.4rem;
   margin-bottom: 1rem;
   font-weight: 400;
+  color: #56ccf2;
 }
 
 .home__subtitle::before {
@@ -48,7 +50,7 @@
   position: absolute;
   width: 70px;
   height: 1px;
-  background-color: hsl(0, 0%, 20%);
+  background-color: #fff;
   top: 1rem;
   left: 0;
 }

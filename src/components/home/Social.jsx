@@ -9,7 +9,11 @@ const Social = () => {
   //   });
 
   return (
-    <div className="home__social">
+    <div
+      className="home__social"
+      data-aos="zoom-in-right"
+      data-aos-duration="4000"
+    >
       {/* target="_blank" means that the link will open the link in new tab  */}
       {/* The rel="noreferrer" attribute ensures that when the link is opened in a new tab or window, it will not have access to the window.opener property, which is a security measure to prevent potential malicious behavior. */}
       <a

@@ -6,13 +6,35 @@ import "./about.css";
 const About = () => {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My Introduction</span>
+      <h2
+        className="section__title"
+        data-aos="zoom-out"
+        data-aos-duration="6000"
+      >
+        About Me
+      </h2>
+      <span
+        className="section__subtitle"
+        data-aos="zoom-out"
+        data-aos-duration="6000"
+      >
+        My Introduction
+      </span>
 
       <div className="about__container container grid">
-        <img src={aboutImage} alt="" className="about__img" />
+        <img
+          src={aboutImage}
+          alt=""
+          className="about__img"
+          data-aos="zoom-in-right"
+          data-aos-duration="6000"
+        />
         <div className="about__data">
-          <p className="about__description">
+          <p
+            className="about__description"
+            data-aos="zoom-in-left"
+            data-aos-duration="6000"
+          >
             I'm Suraj Maheshwari, currently in my pre-final year pursuing B.Tech
             in Information Technology from Indian Institute of Information
             Technology Una, Himachal Pradesh. As a computer science student, I'm
@@ -20,7 +42,13 @@ const About = () => {
             full-stack web developer.
           </p>
 
-          <a download="" href={Resume} className="button button--flex">
+          <a
+            download=""
+            href={Resume}
+            className="button button--flex"
+            data-aos="zoom-in-left"
+            data-aos-duration="6000"
+          >
             Download Resume
             <svg
               class="button__icon"

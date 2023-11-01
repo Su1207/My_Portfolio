@@ -10,11 +10,27 @@ const Qualification = () => {
 
   return (
     <section className="qualification section" id="qualification">
-      <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">My Personal Journey</span>
+      <h2
+        className="section__title"
+        data-aos="zoom-out"
+        data-aos-duration="6000"
+      >
+        Qualification
+      </h2>
+      <span
+        className="section__subtitle"
+        data-aos="zoom-out"
+        data-aos-duration="6000"
+      >
+        My Personal Journey
+      </span>
 
       <div className="qualification__container container">
-        <div className="qualification__tabs">
+        <div
+          className="qualification__tabs"
+          data-aos="zoom-out"
+          data-aos-duration="6000"
+        >
           <div
             className={
               toggleState === 1
@@ -49,7 +65,7 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
-              <div>
+              <div data-aos="zoom-in-right" data-aos-duration="6000">
                 <h3 className="qualification__title">
                   B.Tech - IT (Information Technology)
                 </h3>
@@ -71,7 +87,7 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-              <div>
+              <div data-aos="zoom-in-left" data-aos-duration="6000">
                 <h3 className="qualification__title">Intermediate</h3>
                 <span className="qualification__subtitle">
                   Deigratia International School
@@ -83,7 +99,7 @@ const Qualification = () => {
             </div>
 
             <div className="qualification__data">
-              <div>
+              <div data-aos="zoom-in-right" data-aos-duration="6000">
                 <h3 className="qualification__title">Metriculation</h3>
                 <span className="qualification__subtitle">
                   Shanti Mission Academy
@@ -108,7 +124,7 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
-              <div>
+              <div data-aos="zoom-in-right" data-aos-duration="6000">
                 <h3 className="qualification__title">Full Stack Developer</h3>
                 <span className="qualification__subtitle">NullClass</span>
                 <div className="qualification__calendar">

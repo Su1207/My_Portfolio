@@ -24,7 +24,7 @@
   border-radius: 0.75rem;
   padding: 1rem;
   text-align: center;
-  transition: transform 0.4s ease-in-out;
+  transition: tranform 0.4s ease-in-out;
 }
 
 .contact__card:hover {

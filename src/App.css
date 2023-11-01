@@ -28,9 +28,16 @@ textarea {
 }
 
 body {
-  background: var(--color-primary);
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
   transition: background 0.2s linear;
   color: hsl(0, 0%, 46%);
+  overflow-x: hidden;
 }
 
 h1,
@@ -97,7 +104,9 @@ img {
 
 .button {
   display: inline-block;
-  background-color: hsl(0, 0%, 20%);
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   color: #fff;
   padding: 1.25rem 2rem;
   border-radius: 1rem;
