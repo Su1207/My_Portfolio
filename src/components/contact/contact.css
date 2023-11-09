@@ -58,7 +58,7 @@
 }
 
 .contact__button {
-  color: hsl(0, 0%, 46%);
+  color: #56ccf2;
   font-size: 0.875rem;
   display: inline-flex;
   justify-content: center;
@@ -91,9 +91,11 @@
   left: 0;
   height: 100%;
   width: 100%;
-  border: 2px solid rgba(0, 0, 0, 0.3);
-  background: none;
-  color: hsl(0, 0%, 20%);
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  background: transparent;
+  color: #fff;
+  /* font-weight: 200; */
+  font-size: 0.875rem;
   outline: none;
   border-radius: 0.75rem;
   padding: 1.5rem;
@@ -106,8 +108,9 @@
   left: 1.25rem;
   z-index: 10;
   padding: 0.25rem;
-  background: hsla(36, 31%, 90%, 1);
-  font-size: 0.813rem;
+  background: transparent;
+  color: #11998e;
+  font-size: 0.875rem;
 }
 
 .contact__form-area {

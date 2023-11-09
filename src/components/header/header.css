@@ -1,11 +1,11 @@
 .header {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 100;
-  background: #804dee;
-  background: linear-gradient(-40deg, #804dee 0%, rgba(55, 51, 80, 0) 100%);
+  /* background: #804dee;
+  background: linear-gradient(-40deg, #804dee 0%, rgba(55, 51, 80, 0) 100%); */
   /* background: -webkit-linear-gradient(
     -90deg,
     #804dee 0%,
@@ -61,7 +61,8 @@
 
 .active-link,
 .nav__link:hover {
-  color: hsl(0, 0%, 0%);
+  /* color: hsl(0, 0%, 0%); */
+  color: #56ccf2;
 }
 
 @media screen and (max-width: 768px) {

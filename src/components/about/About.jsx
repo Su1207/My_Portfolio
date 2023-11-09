@@ -1,7 +1,9 @@
 import React from "react";
-import aboutImage from "../../assets/about.jpeg";
+// import aboutImage from "../../assets/about.jpeg";
 import Resume from "../../assets/Resume.pdf";
 import "./about.css";
+import EarthCanvas from "../Earth";
+// import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -22,17 +24,17 @@ const About = () => {
       </span>
 
       <div className="about__container container grid">
-        <img
+        {/* <img
           src={aboutImage}
           alt=""
           className="about__img"
           data-aos="zoom-in-right"
           data-aos-duration="6000"
-        />
+        /> */}
         <div className="about__data">
           <p
             className="about__description"
-            data-aos="zoom-in-left"
+            data-aos="zoom-in"
             data-aos-duration="6000"
           >
             I'm Suraj Maheshwari, currently in my pre-final year pursuing B.Tech
@@ -45,7 +47,7 @@ const About = () => {
           <a
             download=""
             href={Resume}
-            className="button button--flex"
+            className="button button--flex about__button"
             data-aos="zoom-in-left"
             data-aos-duration="6000"
           >
@@ -76,6 +78,8 @@ const About = () => {
               ></path>
             </svg>
           </a>
+
+          <EarthCanvas />
         </div>
       </div>
     </section>

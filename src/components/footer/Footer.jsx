@@ -5,23 +5,44 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Suraj Maheshwari</h1>
+        <h1
+          className="footer__title"
+          data-aos="zoom-out"
+          data-aos-duration="6000"
+        >
+          Suraj Maheshwari
+        </h1>
 
         <ul className="footer__list">
           <li>
-            <a href="#about" className="footer__link">
+            <a
+              href="#about"
+              className="footer__link"
+              data-aos="zoom-out"
+              data-aos-duration="6000"
+            >
               About
             </a>
           </li>
 
           <li>
-            <a href="#portfolio" className="footer__link">
+            <a
+              href="#portfolio"
+              className="footer__link"
+              data-aos="zoom-out"
+              data-aos-duration="6000"
+            >
               Projects
             </a>
           </li>
 
           <li>
-            <a href="#skills" className="footer__link">
+            <a
+              href="#skills"
+              className="footer__link"
+              data-aos="zoom-out"
+              data-aos-duration="6000"
+            >
               Skills
             </a>
           </li>
@@ -33,6 +54,8 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
+            data-aos="zoom-out"
+            data-aos-duration="6000"
           >
             <i class="uil uil-instagram"></i>
           </a>
@@ -42,6 +65,8 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
+            data-aos="zoom-out"
+            data-aos-duration="6000"
           >
             <i class="uil uil-github"></i>
           </a>
@@ -51,6 +76,8 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
+            data-aos="zoom-out"
+            data-aos-duration="6000"
           >
             <i class="uil uil-linkedin"></i>
           </a>

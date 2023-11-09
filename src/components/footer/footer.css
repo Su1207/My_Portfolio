@@ -1,5 +1,5 @@
 .footer {
-  background-color: #fff;
+  background: #000000; /* fallback for old browsers */
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -9,7 +9,7 @@
 
 .footer__title,
 .footer__link {
-  color: hsl(0, 0%, 20%);
+  color: #56ccf2;
 }
 
 .footer__title {
@@ -18,7 +18,7 @@
 }
 
 .footer__link:hover {
-  color: hsl(0, 0%, 0%);
+  color: #fff;
 }
 
 .footer__list {
@@ -36,7 +36,7 @@
 
 .footer__social-link {
   background-color: hsl(0, 0%, 20%);
-  color: #fff;
+  color: #11998e;
   padding: 0.1rem 0.3rem;
   font-size: 1.25rem;
   border-radius: 0.5rem;
@@ -49,7 +49,7 @@
 
 .footer__copy {
   display: block;
-  color: hsl(0, 0%, 20%);
+  color: #56ccf2;
   text-align: center;
   font-size: 0.813rem;
   margin-top: 4rem;

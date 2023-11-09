@@ -106,7 +106,7 @@
 }
 
 .home__scroll-name {
-  color: hsl(0, 0%, 20%);
+  color: #00cea8;
   font-weight: 500;
   margin-left: 2px;
   margin-right: 0.25rem;
@@ -114,7 +114,7 @@
 
 .home__scroll-arrow {
   font-size: 1.25rem;
-  color: hsl(0, 0%, 20%);
+  color: #00cea8;
 }
 
 @media screen and (max-width: 992px) {

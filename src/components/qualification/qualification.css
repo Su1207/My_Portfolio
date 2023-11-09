@@ -11,13 +11,9 @@
 .qualification__button {
   font-size: 1rem;
   font-weight: 500;
-  color: hsl(0, 0%, 20);
+  color: #fff;
   margin: 0 1rem;
   cursor: pointer;
-}
-
-.qualification__button:hover {
-  color: hsl(0, 0%, 0%);
 }
 
 .qualification__icon {
@@ -26,7 +22,7 @@
 }
 
 .qualification__active {
-  color: hsl(0, 0%, 0%);
+  color: #11998e;
 }
 
 .qualification__sections {
@@ -52,6 +48,7 @@
 .qualification__title {
   font-size: 1rem;
   font-weight: 500;
+  color: #fff;
 }
 
 .qualification__subtitle {

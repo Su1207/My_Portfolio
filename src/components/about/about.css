@@ -1,21 +1,34 @@
 .about__container {
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */
   align-items: center;
   column-gap: 4rem;
 }
 
-.about__img {
+.section__title {
+  color: #56ccf2;
+}
+
+.section__subtitle {
+  color: #11998e;
+}
+
+/* .about__img {
   width: 350px;
   border-radius: 1.5rem;
   justify-self: center;
-}
+} */
 
 .about__data {
   text-align: justify;
+  font-size: 1.4rem;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 2rem;
+  font-weight: 300;
+  color: #fff;
 }
 
 .about__description {
-  padding: 0 4rem 0 0;
+  /* padding: 0 4rem 0 0; */
   margin-bottom: 2.5rem;
   /* text-align: justify; */
 }
