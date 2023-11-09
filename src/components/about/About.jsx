@@ -2,7 +2,7 @@ import React from "react";
 // import aboutImage from "../../assets/about.jpeg";
 import Resume from "../../assets/Resume.pdf";
 import "./about.css";
-import EarthCanvas from "../Earth";
+// import EarthCanvas from "../Earth";
 // import { motion } from "framer-motion";
 
 const About = () => {
@@ -79,7 +79,7 @@ const About = () => {
             </svg>
           </a>
 
-          <EarthCanvas />
+          {/* <EarthCanvas /> */}
         </div>
       </div>
     </section>
