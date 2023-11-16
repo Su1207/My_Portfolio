@@ -1,9 +1,32 @@
-import React from "react";
-import Frontend from "./Frontend";
-import Backend from "./Backend";
+import React, { useEffect, useState } from "react";
+// import Frontend from "./Frontend";
+// import Backend from "./Backend";
+// import html from "../../assets/html.png";
+// import css from "../../assets/css.png";
+// import javascript from "../../assets/javascript.png";
+
 import "./skills.css";
 
 const Skills = () => {
+  const numSkills = 14; // Set this based on the number of skills you have
+  const [skills, setSkills] = useState([]);
+
+  useEffect(() => {
+    const fetchSkills = async () => {
+      const skillPromises = Array.from({ length: numSkills }, (_, index) =>
+        import(`../../assets/skills/skill${index + 1}.png`).then(
+          (module) => module.default
+        )
+      );
+
+      const resolvedSkills = await Promise.all(skillPromises);
+      setSkills(resolvedSkills);
+    };
+
+    fetchSkills();
+  }, [numSkills]);
+  // console.log(skills);
+
   return (
     <section className="skills section" id="skills">
       <h3
@@ -21,9 +44,35 @@ const Skills = () => {
         My Technical Level
       </span>
 
-      <div className="skills__container container grid">
-        <Frontend />
-        <Backend />
+      <div
+        className="skills__container container grid"
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+      >
+        {/* <div> */}
+        {skills.map((image, index) => (
+          <img
+            key={index}
+            className="skill_img"
+            src={image}
+            alt={`Skill ${index + 1}`}
+            style={{ width: "50", height: "50" }}
+          />
+        ))}
+        {/* </div> */}
+
+        {/* <Frontend />
+        <Backend /> */}
+
+        {/* <div className="skill" id="skill">
+          <img src={html} alt="HTML" />
+        </div>
+        <div className="skill" id="skill">
+          <img src={css} alt="HTML" />
+        </div>
+        <div className="skill" id="skill">
+          <img src={javascript} alt="HTML" />
+        </div> */}
       </div>
     </section>
   );

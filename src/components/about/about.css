@@ -20,7 +20,7 @@
 
 .about__data {
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: "Ubuntu", sans-serif;
   line-height: 2rem;
   font-weight: 300;
@@ -56,6 +56,9 @@
 
   .section__subtitle {
     margin-bottom: 3rem;
+  }
+  .about__data {
+    font-size: 1rem;
   }
 }
 

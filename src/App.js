@@ -11,6 +11,7 @@ import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Portfolio from "./components/portfolio/Portfolio";
 
 const App = () => {
   AOS.init();
@@ -23,6 +24,7 @@ const App = () => {
         <About />
         <Skills />
         <Qualification />
+        <Portfolio />
         <Contact />
       </main>
 

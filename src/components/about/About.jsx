@@ -39,9 +39,14 @@ const About = () => {
           >
             I'm Suraj Maheshwari, currently in my pre-final year pursuing B.Tech
             in Information Technology from Indian Institute of Information
-            Technology Una, Himachal Pradesh. As a computer science student, I'm
-            passionate about software development and aspire to become a
-            full-stack web developer.
+            Technology Una, Himachal Pradesh. I'm a passionate web developer
+            with expertise in HTML, CSS, JS, TypeScript, React, Node.js, and
+            Express. I work with databases like MongoDB and SQL, and use
+            frameworks such as Next.js and Tailwind CSS. Additionally, I'm a
+            Flutter enthusiast with strong problem-solving skills. Committed to
+            crafting efficient, user-centric solutions, I'm open to new
+            challenges and eager to contribute to innovative projects. Let's
+            connect and collaborate!
           </p>
 
           <a
