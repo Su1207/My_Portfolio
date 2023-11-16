@@ -51,12 +51,7 @@ const Portfolio = () => {
               search functionality, allowing readers to discover relevant blogs
               based on categories.
             </p>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-              }}
-            >
+            <div className="project_link">
               <a
                 href="https://github.com/Su1207/MyBlogApp"
                 className="project-icon"
@@ -91,12 +86,7 @@ const Portfolio = () => {
               MyPortfolio serves as an invitation to connect and explore
               collaborative opportunities in the digital realm.
             </p>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-              }}
-            >
+            <div className="project_link">
               <a
                 href="https://github.com/Su1207/My_Portfolio"
                 className="project-icon"
@@ -144,12 +134,7 @@ const Portfolio = () => {
               message delivery, providing a responsive and dynamic user
               experience.
             </p>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-              }}
-            >
+            <div className="project_link">
               <a
                 href="https://github.com/Su1207/chat-app"
                 className="project-icon"
@@ -182,12 +167,7 @@ const Portfolio = () => {
               proficiency in React and a commitment to seamlessly integrating
               functionality with user satisfaction.
             </p>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-              }}
-            >
+            <div className="project_link">
               <a
                 href="https://github.com/Su1207/stackoverflow-clone"
                 className="project-icon"
