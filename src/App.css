@@ -29,17 +29,18 @@ textarea {
 }
 
 body {
-  /* background: #000000; /* fallback for old browsers */
+  background: #000000; /* fallback for old browsers */
   /* background: -webkit-linear-gradient(
     to right,
     #434343,
     #000000
   ); Chrome 10-25, Safari 5.1-6
   background: linear-gradient(to right, #434343, #000000); */
-  background: url(./assets/bg.svg);
-  background-size: cover; /* Adjust as needed */
-  background-repeat: no-repeat; /* Adjust as needed */
-  transition: background 0.2s linear;
+  /* background: url(./assets/bg.svg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* transition: background 0.2s linear; */
   color: hsl(0, 0%, 46%);
   overflow-x: hidden;
 }

@@ -1,0 +1,34 @@
+.cursor-container {
+  /* fixed positioning */
+  position: fixed;
+
+  /* high z-index to be on top */
+  z-index: 99999;
+
+  /* zero width and height initially */
+  width: 0;
+  height: 0;
+
+  /* red background */
+  background-color: #f56565; /* Tailwind's red-500 */
+}
+
+.cursor-indicator {
+  /* positioning */
+  position: absolute;
+
+  /* size of the cursor */
+  width: 1rem; /* 4px */
+  height: 1rem; /* 4px */
+
+  /* centering the cursor relative to its position */
+  top: -0.5rem; /* -2px */
+  left: -0.5rem; /* -2px */
+
+  /* background and rounded shape */
+  background-color: #f56565; /* Tailwind's red-500 */
+  border-radius: 9999px;
+
+  /* ensure no pointer events */
+  pointer-events: none;
+}

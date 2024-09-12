@@ -61,7 +61,7 @@
 }
 
 .home__img {
-  background: url("../../assets/profile.jpeg");
+  background: url("../../assets/profile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -70,10 +70,12 @@
   /* border-radius: 50%; */
   /* box-shadow: horizontalOffset verticalOffset blurRadius spreadRadius color*/
   /* inset means shadow will appear inside the element otherwsie it appears outward */
-  box-shadow: inset 0 0 0 9px rgb(255 255 255/30%);
+  /* box-shadow: inset 0 0 0 9px rgb(255 255 255/30%); */
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+  border-radius: 100%;
   order: 1; /* placed the element after element with default order 0 */
   justify-self: center;
-  animation: profile-animate 8s ease-in-out infinite 1s;
+  /* animation: profile-animate 6s ease-in-out infinite 1s; */
 }
 
 @keyframes profile-animate {
