@@ -1,6 +1,7 @@
 # My Portfolio
 
-![Portfolio Screenshot](https://my-portfolio-three-chi-13.vercel.app/portfolio-screenshot.png)
+![Portfolio Screenshot](<img width="947" alt="image" src="https://github.com/user-attachments/assets/5ec8e5e6-acf7-4472-b0b8-0f8816364f9e">
+)
 
 This is my personal portfolio website built using modern web development technologies. It showcases my skills, projects, and experience. The website is hosted on Vercel and can be accessed [here](https://my-portfolio-three-chi-13.vercel.app).
 
