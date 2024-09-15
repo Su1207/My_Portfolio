@@ -8,13 +8,13 @@ import React, { useEffect, useState } from "react";
 import "./skills.css";
 
 const Skills = () => {
-  const numSkills = 14; // Set this based on the number of skills you have
+  const numSkills = 21; // Set this based on the number of skills you have
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
     const fetchSkills = async () => {
       const skillPromises = Array.from({ length: numSkills }, (_, index) =>
-        import(`../../assets/skills/skill${index + 1}.png`).then(
+        import(`../../assets/skills/skill${index + 1}.svg`).then(
           (module) => module.default
         )
       );

@@ -19,17 +19,17 @@
 }
 
 .contact__card {
-  background-color: hsla(36, 31%, 90%, 1);
+  background-color: #1e1c25;
+  color: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.75rem;
   padding: 1rem;
   text-align: center;
-  transition: tranform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 
 .contact__card:hover {
-  background: #fff;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .contact__card-icon {
@@ -50,11 +50,13 @@
 
 .contact__card-title {
   font-weight: 500;
+  color: #fff;
 }
 
 .contact__card-data {
   display: block;
   margin-bottom: 0.75rem;
+  font-weight: 400;
 }
 
 .contact__button {
@@ -91,11 +93,11 @@
   left: 0;
   height: 100%;
   width: 100%;
-  border: 2px solid rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(179, 178, 178, 0.4);
   background: transparent;
   color: #fff;
   /* font-weight: 200; */
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   outline: none;
   border-radius: 0.75rem;
   padding: 1.5rem;
@@ -108,7 +110,7 @@
   left: 1.25rem;
   z-index: 10;
   padding: 0.25rem;
-  background: transparent;
+  background: #000;
   color: #11998e;
   font-size: 0.875rem;
 }
