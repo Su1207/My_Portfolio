@@ -66,17 +66,21 @@
   }
 
   .about__description {
-    padding: 0 5rem;
+    padding: 0 1rem;
     margin-bottom: 2rem;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .text_content {
+    padding: 2rem 0;
+  }
   .about__data {
     font-size: 1rem;
+    text-align: justify;
   }
 
   .about__description {
-    padding: 0 2rem;
+    padding: 0 5px;
   }
 }
