@@ -16,8 +16,6 @@ This is my personal portfolio website built using modern web development technol
 
 - **Frontend**: React.js, HTML, CSS, JavaScript
 - **Styling**: Tailwind CSS, Framer Motion for animations
-- **Backend**: Node.js, Express.js (if applicable)
-- **Database**: Firebase (if applicable)
 - **Hosting**: Vercel
 
 ## Installation and Setup Instructions
