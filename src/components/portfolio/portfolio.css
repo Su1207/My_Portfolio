@@ -10,6 +10,26 @@
   /* width: 30rem; */
 }
 
+.project_link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.8rem;
+  font-size: 1.5rem;
+}
+
+.project_link_left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.8rem;
+  font-size: 1.5rem;
+}
+
+.deployed-link {
+  color: red;
+}
+
 .project_desc_header {
   font-weight: 800;
   font-size: 1.8rem;

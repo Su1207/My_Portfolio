@@ -125,10 +125,10 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div data-aos="zoom-in-right" data-aos-duration="6000">
-                <h3 className="qualification__title">Full Stack Developer</h3>
-                <span className="qualification__subtitle">NullClass</span>
+                <h3 className="qualification__title">MERN Stack Developer</h3>
+                <span className="qualification__subtitle">EZSync</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> May 2023 - Jul 2023
+                  <i className="uil uil-calendar-alt"></i> Jul 2024 - Aug 2024
                 </div>
               </div>
               <div>
@@ -144,6 +144,16 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
 
+              <div data-aos="zoom-in-right" data-aos-duration="6000">
+                <h3 className="qualification__title">Full Stack Developer</h3>
+                <span className="qualification__subtitle">Cograd</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> Feb 2024 - Jul 2024
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
               <div data-aos="zoom-in-right" data-aos-duration="6000">
                 <h3 className="qualification__title">MERN Stack Developer</h3>
                 <span className="qualification__subtitle">
@@ -153,16 +163,6 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i> Jan 2024 - Jul 2024
                 </div>
               </div>
-            </div>
-
-            <div className="qualification__data">
-              <div data-aos="zoom-in-right" data-aos-duration="6000">
-                <h3 className="qualification__title">Web Developer</h3>
-                <span className="qualification__subtitle">Cograd</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Feb 2024 - Jul 2024
-                </div>
-              </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
@@ -177,10 +177,10 @@ const Qualification = () => {
               </div>
 
               <div data-aos="zoom-in-right" data-aos-duration="6000">
-                <h3 className="qualification__title">MERN Stack Developer</h3>
-                <span className="qualification__subtitle">EZSync</span>
+                <h3 className="qualification__title">Full Stack Developer</h3>
+                <span className="qualification__subtitle">NullClass</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Jun 2024 - Jul 2024
+                  <i className="uil uil-calendar-alt"></i> May 2023 - Jul 2023
                 </div>
               </div>
             </div>
