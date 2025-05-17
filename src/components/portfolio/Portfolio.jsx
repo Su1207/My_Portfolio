@@ -76,97 +76,7 @@ const Portfolio = () => {
             data-aos-duration="6000"
           />
         </div>
-        <div className="projects grid">
-          <img
-            src={project1}
-            alt="MyBlogApp"
-            className="project_img"
-            data-aos="zoom-in-right"
-            data-aos-duration="6000"
-          />
-          <div className="project_desc">
-            <h2
-              className="project_desc_header"
-              data-aos="zoom-in-left"
-              data-aos-duration="6000"
-            >
-              MyBlogApp
-            </h2>
-            <p
-              className="project_desc_data"
-              data-aos="zoom-in-left"
-              data-aos-duration="6000"
-            >
-              User-friendly and intuitive user interface that allows bloggers to
-              effortlessly create, manage, and publish their content and readers
-              to read others content. Secure user authentication and robust
-              search functionality, allowing readers to discover relevant blogs
-              based on categories.
-            </p>
-            <div className="project_link_left">
-              <a
-                className="deployed-link"
-                target="_blank"
-                rel="noreferrer"
-                href="https://my-blog-app-alpha.vercel.app/"
-              >
-                <i class="uil uil-link"></i>
-              </a>
-              <a
-                href="https://github.com/Su1207/MyBlogApp"
-                className="project-icon"
-                target="_blank"
-                rel="noreferrer"
-                data-aos="zoom-in-left"
-                data-aos-duration="6000"
-              >
-                <i class="uil uil-github"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="projects grid">
-          <div className="project_desc" style={{ textAlign: "right" }}>
-            <h2
-              className="project_desc_header"
-              data-aos="zoom-in-right"
-              data-aos-duration="6000"
-            >
-              MyPortfolio
-            </h2>
-            <p
-              className="project_desc_data"
-              data-aos="zoom-in-right"
-              data-aos-duration="6000"
-            >
-              It's a refined exhibit of my journey in web development. Beyond
-              coding, it signifies a commitment to crafting user-centric
-              solutions. Each project reflects a fusion of technology,
-              creativity, and functionality, illustrating a meticulous approach.
-              MyPortfolio serves as an invitation to connect and explore
-              collaborative opportunities in the digital realm.
-            </p>
-            <div className="project_link">
-              <a
-                href="https://github.com/Su1207/My_Portfolio"
-                className="project-icon"
-                target="_blank"
-                rel="noreferrer"
-                data-aos="zoom-in-right"
-                data-aos-duration="6000"
-              >
-                <i class="uil uil-github"></i>
-              </a>
-            </div>
-          </div>
-          <img
-            src={project2}
-            alt="MyPortfolio"
-            className="project_img"
-            data-aos="zoom-in-left"
-            data-aos-duration="6000"
-          />
-        </div>
+
         <div className="projects grid">
           <img
             src={project3}
@@ -196,7 +106,7 @@ const Portfolio = () => {
             </p>
             <div className="project_link_left">
               <a
-                href="https://github.com/Su1207/chat-app"
+                href="https://github.com/Su1207/chat_app"
                 className="project-icon"
                 target="_blank"
                 rel="noreferrer"
@@ -209,13 +119,106 @@ const Portfolio = () => {
                 className="deployed-link"
                 target="_blank"
                 rel="noreferrer"
-                href="https://vibe-connect-gamma.vercel.app/"
+                href="https://chat-app-veai.onrender.com/"
               >
                 <i class="uil uil-link"></i>
               </a>
             </div>
           </div>
         </div>
+
+        <div className="projects grid">
+          <div className="project_desc" style={{ textAlign: "right" }}>
+            <h2
+              className="project_desc_header"
+              data-aos="zoom-in-left"
+              data-aos-duration="6000"
+            >
+              MyBlogApp
+            </h2>
+            <p
+              className="project_desc_data"
+              data-aos="zoom-in-left"
+              data-aos-duration="6000"
+            >
+              User-friendly and intuitive user interface that allows bloggers to
+              effortlessly create, manage, and publish their content and readers
+              to read others content. Secure user authentication and robust
+              search functionality, allowing readers to discover relevant blogs
+              based on categories.
+            </p>
+            <div className="project_link">
+              <a
+                className="deployed-link"
+                target="_blank"
+                rel="noreferrer"
+                href="https://my-blog-app-alpha.vercel.app/"
+              >
+                <i class="uil uil-link"></i>
+              </a>
+              <a
+                href="https://github.com/Su1207/MyBlogApp"
+                className="project-icon"
+                target="_blank"
+                rel="noreferrer"
+                data-aos="zoom-in-left"
+                data-aos-duration="6000"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+          </div>
+          <img
+            src={project1}
+            alt="MyBlogApp"
+            className="project_img"
+            data-aos="zoom-in-right"
+            data-aos-duration="6000"
+          />
+        </div>
+        <div className="projects grid">
+          <img
+            src={project2}
+            alt="MyPortfolio"
+            className="project_img"
+            data-aos="zoom-in-left"
+            data-aos-duration="6000"
+          />
+          <div className="project_desc">
+            <h2
+              className="project_desc_header"
+              data-aos="zoom-in-right"
+              data-aos-duration="6000"
+            >
+              MyPortfolio
+            </h2>
+            <p
+              className="project_desc_data"
+              data-aos="zoom-in-right"
+              data-aos-duration="6000"
+            >
+              It's a refined exhibit of my journey in web development. Beyond
+              coding, it signifies a commitment to crafting user-centric
+              solutions. Each project reflects a fusion of technology,
+              creativity, and functionality, illustrating a meticulous approach.
+              MyPortfolio serves as an invitation to connect and explore
+              collaborative opportunities in the digital realm.
+            </p>
+            <div className="project_link_left">
+              <a
+                href="https://github.com/Su1207/My_Portfolio"
+                className="project-icon"
+                target="_blank"
+                rel="noreferrer"
+                data-aos="zoom-in-right"
+                data-aos-duration="6000"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className="projects grid">
           <div className="project_desc" style={{ textAlign: "right" }}>
             <h2

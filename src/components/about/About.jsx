@@ -1,5 +1,4 @@
 import React from "react";
-import Resume from "../../assets/Resume.pdf";
 import "./about.css";
 
 const About = () => {
@@ -43,10 +42,12 @@ const About = () => {
 
             <a
               download=""
-              href={Resume}
+              href="https://drive.google.com/file/d/1i16JcBurqPrCpNw001cV56EuV0nrWc78/view?usp=drive_link"
               className="button button--flex about__button"
               data-aos="zoom-in-left"
               data-aos-duration="6000"
+              target="_blank" //ensure open in new tab
+              rel="noopener noreferrer"
             >
               Download Resume
               <svg

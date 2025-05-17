@@ -71,7 +71,7 @@ const Qualification = () => {
                 </h3>
                 <span className="qualification__subtitle">IIIT Una</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2025
                 </div>
               </div>
 
@@ -125,10 +125,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div data-aos="zoom-in-right" data-aos-duration="6000">
-                <h3 className="qualification__title">MERN Stack Developer</h3>
+                <h3 className="qualification__title">
+                  MERN Stack Developer Intern
+                </h3>
                 <span className="qualification__subtitle">EZSync</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Jul 2024 - Aug 2024
+                  <i className="uil uil-calendar-alt"></i> Aug 2024 - Sep 2024
                 </div>
               </div>
               <div>
@@ -145,17 +147,21 @@ const Qualification = () => {
               </div>
 
               <div data-aos="zoom-in-right" data-aos-duration="6000">
-                <h3 className="qualification__title">Full Stack Developer</h3>
+                <h3 className="qualification__title">
+                  Full Stack Developer (Freelance)
+                </h3>
                 <span className="qualification__subtitle">Cograd</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Feb 2024 - Jul 2024
+                  <i className="uil uil-calendar-alt"></i> Apr 2024 - Jul 2024
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div data-aos="zoom-in-right" data-aos-duration="6000">
-                <h3 className="qualification__title">MERN Stack Developer</h3>
+                <h3 className="qualification__title">
+                  Software Developer Intern
+                </h3>
                 <span className="qualification__subtitle">
                   Destov International
                 </span>
@@ -169,7 +175,7 @@ const Qualification = () => {
               </div>
             </div>
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
               <div>
                 <span className="qualification__rounder"></span>
@@ -183,7 +189,7 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i> May 2023 - Jul 2023
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
