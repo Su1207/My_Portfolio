@@ -124,6 +124,26 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div data-aos="zoom-in-right" data-aos-duration="6000">
+                <h3 className="qualification__title">
+                  Backend Developer Intern
+                </h3>
+                <span className="qualification__subtitle">
+                  Mahawanti Solutions Pvt Ltd
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> May 2025 - Present
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
               <div data-aos="zoom-in-right" data-aos-duration="6000">
                 <h3 className="qualification__title">
                   MERN Stack Developer Intern

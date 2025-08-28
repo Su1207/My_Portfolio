@@ -27,17 +27,18 @@ const About = () => {
               data-aos="zoom-in"
               data-aos-duration="6000"
             >
-              I'm Suraj Maheshwari, currently in my final year pursuing B.Tech
-              in Information Technology from Indian Institute of Information
-              Technology Una, Himachal Pradesh. I'm an enthusiastic and diligent
-              web developer with passion for crafting user centric solutions. My
-              skillset comprises of HTML, CSS, JavaScript, Typescript, React,
-              Node.js, and Express. I work with databases like MongoDB and SQL,
-              and use frameworks such as Next.js and Tailwind CSS. Additionally,
-              I'm a Flutter enthusiast with strong problem-solving skills.
-              Committed to crafting efficient, user-centric solutions, I'm open
-              to new challenges and eager to contribute to innovative projects.
-              Let's connect and collaborate!
+              I'm Suraj Maheshwari, a recent B.Tech graduate in Information
+              Technology from Indian Institute of Information Technology Una,
+              Himachal Pradesh. I'm an enthusiastic and diligent full stack
+              developer with passion for crafting intuitive and user centric
+              solutions. My skillset comprises of HTML, CSS, JavaScript,
+              Typescript, React, Redux Node.js, and Express. I work with
+              databases like MongoDB and MySQL, PostgreSQL, and use frameworks
+              such as Next.js and Tailwind CSS. Additionally, I'm a flexible,
+              detail oriented and possess leadership quality with strong
+              problem-solving skills. Committed to crafting efficient,
+              user-centric solutions, I'm open to new challenges and eager to
+              contribute to innovative projects. Let's connect and collaborate!
             </p>
 
             <a

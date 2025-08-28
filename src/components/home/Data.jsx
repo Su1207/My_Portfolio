@@ -56,11 +56,11 @@ const Data = () => {
         </svg>
       </h1>
 
-      <h3 className="home__subtitle">Web Developer</h3>
+      <h3 className="home__subtitle">Full Stack Developer</h3>
 
       <p className="home__description">
-        I'm an enthusiastic and diligent web developer with passion for crafting
-        intuitive user experiences.
+        I'm an enthusiastic and diligent full stack developer with passion for
+        crafting intuitive user experiences.
       </p>
 
       <a href="#contact" className="button button--flex">
